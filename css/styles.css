@@ -50,7 +50,7 @@ body {
 }
 
 .ic2 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .input {
@@ -66,7 +66,7 @@ body {
   width: 100%;
 }
 
-.cut {
+/* .cut { 
   background-color: #15172b;
   border-radius: 10px;
   height: 20px;
@@ -75,16 +75,16 @@ body {
   top: -20px;
   transform: translateY(0);
   transition: transform 200ms;
-  width: 76px;
+  /* width: 76px; */
 }
 
 .cut-short {
-  width: 50px;
+  width: 70px;
 }
 
 .input:focus ~ .cut,
 .input:not(:placeholder-shown) ~ .cut {
-  transform: translateY(8px);
+  transform: translateY(16px);
 }
 
 .placeholder {
@@ -101,7 +101,7 @@ body {
 
 .input:focus ~ .placeholder,
 .input:not(:placeholder-shown) ~ .placeholder {
-  transform: translateY(-30px) translateX(10px) scale(0.75);
+  transform: translateY(-30px) translateX(16px) scale(1.00);
 }
 
 /* .input:not(:placeholder-shown) ~ .placeholder { */
@@ -109,7 +109,7 @@ body {
 /* } */
 
 .input:focus ~ .placeholder {
-  color: #dc2f55;
+  color: #700902;
 }
 
 .submit {
