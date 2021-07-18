@@ -6,7 +6,7 @@ h1{
 }
 p{
   text-align: center;
-  size: 70px;
+  size: 100px;
   color: #eee;
   
 }
@@ -58,7 +58,7 @@ body {
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: #eee;
+  color: rgb(20, 15, 15);
   font-size: 18px;
   height: 100%;
   outline: 0;
