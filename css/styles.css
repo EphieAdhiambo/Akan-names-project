@@ -108,9 +108,7 @@ body {
   transform: translateY(-30px) translateX(16px) scale(1.00);
 }
 
-/* .input:not(:placeholder-shown) ~ .placeholder { */
-  /* color: #0c0c0f; */
-/* } */
+
 
 .input:focus ~ .placeholder {
   color: #700902;

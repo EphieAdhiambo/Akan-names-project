@@ -18,9 +18,9 @@ This project helps you find out what you would be called had you been born in Gh
 # Contact Information
 You can contact me via;
 
-Email:ephieadhiambo01@gmail.com
+Email: ephieadhiambo01@gmail.com
 
-Tel:0742409834
+Tel: 0742409834/0781110456
 
 Instagram: _ephieee
 
