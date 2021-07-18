@@ -6,10 +6,10 @@ function naming() {
   var MM = parseInt(document.getElementById("month").value);
   var DD = parseInt(document.getElementById("date").value);
 
-  var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sartuday"];
-  var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
-  
+  var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sartuday"];
+  var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
 
   if (CC.value == "" || YY.value == "" || MM.value == "" || DD.value == "") {
     alert("Blank Values not Allowed");
@@ -43,25 +43,25 @@ function naming() {
     }
 
   } else {
-    if (dayOfTheWeek === 1) {
+    if (dayOfTheWeek === 0) {
       alert("You were born on: " + day[0]);
       alert("Your Akan name is: " + femaleNames[0]);
-    } else if (dayOfTheWeek === 2) {
+    } else if (dayOfTheWeek === 1) {
       alert("You were born on: " + day[1]);
       alert("Your Akan name is: " + femaleNames[1]);
-    } else if (dayOfTheWeek === 3) {
+    } else if (dayOfTheWeek === 2) {
       alert("You were born on: " + day[2]);
       alert("Your Akan name is: " + femaleNames[2]);
-    } else if (dayOfTheWeek === 4) {
+    } else if (dayOfTheWeek === 3) {
       alert("You were born on: " + day[3]);
       alert("Your Akan name is: " + femaleNames[3]);
-    } else if (dayOfTheWeek === 5) {
+    } else if (dayOfTheWeek === 4) {
       alert("You were born on: " + day[4]);
       alert("Your Akan name is: " + femaleNames[4]);
-    } else if (dayOfTheWeek === 6) {
+    } else if (dayOfTheWeek === 5) {
       alert("You were born on: " + day[5]);
       alert("Your Akan name is: " + femaleNames[5]);
-    } else if (dayOfTheWeek === 7) {
+    } else if (dayOfTheWeek === 6) {
       alert("You were born on: " + day[6]);
       alert("Your Akan name is: " + femaleNames[6]);
     }
@@ -86,6 +86,6 @@ function validate() {
     alert("Invalid Date")
   }
   else {
-    naming() 
+    naming()
   }
 }
