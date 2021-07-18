@@ -7,8 +7,9 @@ function naming() {
   var DD = parseInt(document.getElementById("akan").value);
 
   var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sartuday"];
-  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
   var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+  var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua", "Ama"];
+  
 
   if (CC.value == "" || YY.value == "" || MM.value == "" || DD.value == "") {
     alert("Blank Values not Allowed");
@@ -85,6 +86,6 @@ function validate() {
     alert("Invalid Date")
   }
   else {
-    naming()
+    naming() 
   }
 }
